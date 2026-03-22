@@ -205,17 +205,15 @@ banner() {
 	cat <<- EOF
 	                                       
                                        
-        ${BLUE}  /$$   /$$  /$$$$$$   /$$$$$$  /$$$$$$ 
-        ${BLUE} |  $$ /$$/ /$$__  $$ /$$__  $$|____  $$
-        ${BLUE}  \  $$$$/ | $$  \ $$| $$  \__/ /$$$$$$$
-        ${BLUE}   >$$  $$ | $$  | $$| $$      /$$__  $$
-        ${BLUE}  /$$/\  $$|  $$$$$$/| $$     |  $$$$$$$
-        ${BLUE} |__/  \__/ \______/ |__/      \_______/
+        ${BLUE} __  _____  _ __ __ _ 
+        ${BLUE} \ \/ / _ \| '__/ _` |
+        ${BLUE} >  < (_) | | | (_| |
+        ${BLUE}/_/\_\___/|_|  \__,_|
                                        
                                        
                	${GREEN}                        ${RED}Version : ${__version__}                        
 
-		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by Capra (tahmid.rayat)${WHITE}
+		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by Capra${WHITE}
 	EOF
 }
 
